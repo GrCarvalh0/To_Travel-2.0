@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Public+Sans:wght@300&display=swap');
+
+* , html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Public Sans';
+}
+
+header{
+    background-color: #66BFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Public Sans';
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 1.2em;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: #ffffff;
+}
+
+.btn-login{
+    background-color: #2386cc;
+    width: 4rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Public Sans';
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-login:hover{
+    cursor: pointer;
+    background-color: #1a70ad;
+}
+
+.btn-register{
+    background-color: #2386cc;
+    width: 5rem;
+    height: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Public Sans';
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px
+}
+
+.btn-register:hover{
+    cursor: pointer;
+    background-color: #1a70ad;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+#btn-viagem{
+    background-color: #66BFFF;
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    height: 2rem;
+    width: 15rem;
+    font-family: 'Public Sans';
+}
+
+#btn-viagem:hover{
+    cursor: pointer;
+    background-color:#4d9ed8;
+}
+
+.setor1 , .setor2 , .setor3{
+    margin-top: 15vh;
+}
+
+.conteudo2 , .conteudo3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Public Sans";
+}
+
+.txt-esquerda{
+    padding-left: 2.5em;
+    
+}
+
+.conteudo2 h1 , .conteudo3 h1{
+    max-width: 12em;
+    font-weight:900;
+    font-size: 20pt;
+}
+
+.conteudo2 h4 , .conteudo3 h4{
+    margin-top: 20px;
+    max-width: 22em;
+    
+}
+
+.img-direita{
+    margin-left: 3rem;
+}
+
+.conteudo3{
+    padding-top: 3vh;
+}
+.img-esquerda{
+    margin-left: 2rem;
+    margin-right: 2.5em;
+}
+
+.txt-direita h4{
+    text-align: justify;
+}
+
+.txt-direita{
+    margin-right: 15px;
+}
+
+.conteudo3 h4{
+    text-align: justify;
+}
+
+.rodape{
+    margin-top: 15rem;
+    background-color: #66BFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Public Sans';
+}
+
+.pgmt{
+    font-family: 'Public Sans';
+    font-size: 10pt;
+}
